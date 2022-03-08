@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="5dp"
+    android:gravity="center"
+    android:id="@+id/contact_details_ly"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:contentDescription="contactAvatar"
+        android:id="@+id/contact_details_iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/img"/>
+
+    <TextView
+        android:id="@+id/contact_details_tv"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/oluwasegun"
+        android:layout_marginStart="20dp"
+        android:textSize="25sp"
+        android:paddingTop="20dp"/>
+
+    <Button
+        android:id="@+id/contact_details_bn"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="50dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_height="wrap_content"
+        android:text="@string/call"/>
+
+
+
+</LinearLayout>
